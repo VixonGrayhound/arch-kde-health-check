@@ -1,0 +1,19 @@
+pkgbase = arch-kde-health-check
+	pkgdesc = Arch Linux + KDE Plasma health check CLI tool
+	pkgver = 1.0
+	pkgrel = 1
+	url = https://github.com/VixonGrayhound/arch-kde-health-check
+	arch = any
+	license = MIT
+	depends = bash
+	depends = pacman
+	depends = systemd
+	optdepends = mesa-utils: OpenGL info (glxinfo)
+	optdepends = vulkan-tools: Vulkan info (vulkaninfo)
+	optdepends = clinfo: OpenCL info
+	optdepends = rocm-opencl-runtime: ROCm OpenCL support
+	optdepends = rocm-hip-runtime: ROCm HIP support
+	source = https://github.com/VixonGrayhound/arch-kde-health-check/archive/refs/tags/v1.0.tar.gz
+	sha256sums = bbde677815c6388fb0e23b3870dc69555d576d0edddcd80759ff5584eeae9395
+
+pkgname = arch-kde-health-check
